@@ -16,5 +16,6 @@ jobs:
           python-version: 3.9
       - name: Rn Python script
         run: |
-          echo hello_world.py
+          # echo hello_world.py
+          ls -al
           python hello_world.py
